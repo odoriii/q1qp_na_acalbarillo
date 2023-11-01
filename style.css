@@ -1,0 +1,441 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navbar container */
+.navbar{
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    height: 5vh;
+    width: 100vw;
+    background-color: #aac4ff;
+}
+.logo img{
+    float: left;
+    height: 5vh;
+    border: 2px solid #DFCCFB;
+    border-radius: 360px;
+    height: 6.5vh;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+/* links inside the navbar */
+.navbar #links{
+    display: inline;
+    margin-bottom: 5vh;
+}
+.navbar #links a{
+    font-family:'Young Serif', serif;
+    background-color: #DFCCFB;
+    border-radius: 10px;
+    padding: 1vh;
+    margin-right: 5vh;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+/*banner*/
+.banner{
+    padding: 1.5vw;
+    background-color: #eef1ff;
+    height:80vh;
+    width: 96vw;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Merriweather&family=Playfair+Display&family=Young+Serif&display=swap');
+.banner h1{
+    font-family: 'Merriweather', serif;
+    color:#b1b2ff;
+    text-shadow: 2px 2px black; 
+    font-size: 4em;
+    margin-top: 2em;
+    margin-left: 11.5em;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+.pic{
+    float:left;
+    position: center;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    width: 10vw;
+}
+.banner a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 300px;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 22.8em;
+}
+.banner p{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.4em;
+    color: #BEADFA;
+    text-shadow: 1px 1px black;
+    padding-bottom: 15px;
+    margin-left: 33em;
+}
+/* a link to the next page*/
+.banner #click{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #b1b2ff, #BEADFA, #aac4ff, #cce7f1, white);
+    color: #e9f5db;
+    text-shadow: 2px 2px #BEADFA;
+}
+/*footer*/
+.footer{
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    background-color: #aac4ff;
+    color: white;
+    text-align: left;
+}
+.footer p{
+    font-family: 'Noto Serif', serif;
+    color: white;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: -57px;
+    font-size: 15px;
+}
+.footer .ftlinks a{ 
+    float: right;
+    margin-right: 3px;
+}
+.footer .ftlinks img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+.footer .ftlinks .fb{
+    margin-right: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Merriweather&family=Playfair+Display&family=Young+Serif&display=swap');
+
+/* css for the study background (concludes: tables)*/
+.bg h1{
+    font-family: 'Merriweather', serif;
+    color: #d2daff;
+    font-size: 4.5em;
+    margin-top: 1em;
+    margin-bottom: 5px;
+    text-shadow: 6px 6px #BEADFA;
+    text-align: left;
+  }
+.bg p{
+    font-size: 2.5em;
+    color: black;
+    text-shadow: 2px 2px white;
+    background-color:#cce7f1;
+    border-radius: 40px;
+    display: inline-block;
+}
+.me img{
+    float: left;
+    height: 5vh;
+    border: 2px solid #DFCCFB;
+    border-radius: 360px;
+    height: 6.5vh;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+.chic img{
+    float: left;
+    height: 5vh;
+    border: 2px solid #DFCCFB;
+    border-radius: 360px;
+    height: 6.5vh;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    flex: 50px;
+    position:center;
+  }
+table, th, td {
+    float:center;
+    padding:10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: solid;
+    margin-top: 8vh;
+    margin-left: 30vw;
+    margin-right: 5vw;
+    width: 40vw;
+  }
+    /*css for the main content*/
+.banner2{
+    padding: 1.5vw;
+    background-color: #eef1ff;
+    height:80vh;
+    width: 95.7vw;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.discussion {
+    display: flex;
+    flex-direction: column;
+    flex: 50px;
+    font-family: 'Young Serif',serif;
+    font-size: large;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    text-align: left;
+  }
+  
+.discussion h1{
+    font-family: 'Merriweather', serif;
+    float:left;
+    color: #d2daff;
+    text-shadow: 3px 2px #BEADFA;
+  }
+  
+.discussion p{
+    margin-top: 10px;
+    color:#8EACCD;
+    font-size:large;
+  }
+.graph {
+    padding: 1.5vw;
+    background-color: #eef1ff;
+    height:200vh;
+    width: 95.6vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+  }
+
+.flex {
+    margin-top: 1vh;
+    margin-right: 10px;
+    display: flex;
+  }
+.col1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    }
+  
+.b1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #8EACCD;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 2vh;
+    margin-right: 5vh;
+  }
+.b1 img {
+    height: 35vh;
+    width: 25vw;
+  }
+.b1 p{
+    font-family: 'Young Serif',serif;
+    margin-left: 7px;
+    margin-top: 12vh;
+    font-size: large;
+  }
+  
+  .b2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #8EACCD;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5vh;
+    margin-right: 5vh;
+  }
+  
+  .b2 img {
+    height: 35vh;
+    width: 25vw;
+  }
+  
+  .b2 p{
+    font-family: 'Young Serif',serif;
+    margin-left: 7px;
+    margin-top: 12vh;
+    font-size: large;
+  }
+  
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .b3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #8EACCD;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+  }
+  
+  .b3 img {
+    height: 35vh;
+    width: 25vw;
+  }
+  
+  .b3 p{
+    font-family: 'Young Serif',serif;
+    margin-left: 7px;
+    margin-top: 15vh;
+    font-size:large;
+  }
+  
+  .b4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #8EACCD;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+  }
+  
+  .b4 img {
+    margin-left: 20px;
+    height: 30vh;
+    width: 40vw;
+  }
+  
+  .b4 h1 {
+    font-family: 'Merriweather', serif;
+    font-size: medium;
+  }
+  
+  .b4 p{
+    font-family: 'Young Serif',serif;
+    margin-top: 10vh;
+    font-size: large;
+  }
+
+/*conclusion*/
+.b{
+    background-color: #D7E5CA;
+  }
+.clickz a{ 
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom right, #b1b2ff, #BEADFA, #aac4ff, #cce7f1, white);
+    color: #e9f5db;
+    text-shadow: 2px 2px #BEADFA;
+    margin-left: 45vw;
+    margin-bottom: 10vh;
+}
+.clickz h1{
+    font-family: 'Merriweather', serif;
+    color: #aac4ff;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #d2daff;
+    margin-left:40vw;
+}
+.melol img{
+    float: left;
+    height: 5vh;
+    border: 2px solid #DFCCFB;
+    border-radius: 360px;
+    height: 6.5vh;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+.con h1{
+    font-family: 'Merriweather', serif;
+    color: #aac4ff;
+    font-size: 2em;
+    margin-top: 2em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #d2daff;
+    margin-left:40vw;
+}
+.con li{
+    font-family: 'Young Serif',serif;
+    margin-left: 2em;
+    font-size:large;
+    margin-bottom: 2em;
+}
+.ref {
+    padding: 1.5vw;
+    height:90h;
+    width: 97vw;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.info{
+font-family: 'Young Serif',serif;
+margin-top: -1vh;
+margin-left: 1vw;
+text-align: left;
+}
+
+.info h2{
+ margin-top: 5px;
+ margin-bottom:3px;
+}
+
+.info p{
+    font-family: 'Young Serif',serif;
+margin-bottom: 10px;
+}
+
+.info li{
+    font-family: 'Young Serif',serif;
+}
+.uyako img{
+    float: left;
+    height: 5vh;
+    border: 2px solid #DFCCFB;
+    border-radius: 360px;
+    height: 6.5vh;
+    margin-left: 5vh;
+    margin-top: -1vh;
+}
+
+/*ABOUT ME*/
+.back{
+  padding: 10vh;
+  background-color: #eef1ff;
+}
+.box1 h3{
+  margin-top: 12vh;
+  margin-right: 2vw;
+}
+.box1{
+    margin-top: 5vh;
+    margin-right: 20vw;
+    margin-left:20vw; 
+    margin-bottom:2vh;
+    background-color: #d2daff;
+    border-radius: 50px;
+    display:inline-flex;
+    font-family: 'Noto Serif', serif;
+}
+
+.box1 img{
+    left:0;
+    margin:10px;
+    border-radius:50px;
+    border:dashed black 1px;
+}
+
+.box1 ul{
+    margin: 10px;
+    font-family: 'Noto Serif', serif;
+}
+  
